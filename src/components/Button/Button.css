@@ -1,0 +1,12 @@
+.Button {
+    background-color: transparent;
+    color:rgb(40, 40, 82);
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    border:2px solid rgb(40, 40, 82) ;
+    font-size: 17px;
+}
