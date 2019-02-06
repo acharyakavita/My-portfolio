@@ -8,8 +8,8 @@ const home =props=>{
       <div className={Classes.Home}>
         <div className={Classes.HomeText}>
           <h1>Hi, I am Kavitha Acharya</h1>
-          <h3>I am a Front End Web Developer in Toronto.</h3>
-          <Button>View My Projects <i class="fas fa-arrow-circle-right"></i></Button>
+          <h3>I am a Front End Web Developer from Toronto.</h3>
+          <Button>View My Projects <i className={['fas','fa-arrow-circle-right'].join(' ')}></i></Button>
         </div>
       </div>
     );

@@ -1,0 +1,31 @@
+.Footer {
+    position:fixed;
+    top:45%;
+    right:0;
+    bottom:0;
+    width:60px;
+    margin-right:1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer a {
+    font-size:30px;
+    padding:3% 0;
+    margin: 5%;
+    color: rgb(40, 40, 82);
+}
+
+.Footer a:hover{
+    color:rgb(172, 59, 59);
+    animation: jiggle 0.2s;
+}
+
+@keyframes jiggle{
+    0% {
+        transform: translate(1px, 1px) rotate(-1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(1deg);
+    }
+}

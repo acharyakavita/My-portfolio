@@ -1,0 +1,13 @@
+
+.NavigationItems {
+    width:40%;
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    font-size:21px;
+    font-weight: bold;
+    float:right;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}

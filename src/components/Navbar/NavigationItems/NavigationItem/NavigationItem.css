@@ -1,0 +1,29 @@
+
+.NavigationItem {
+    margin: 10px 0;
+    box-sizing: border-box;
+    float:right;
+    width: 50%;
+}
+
+.NavigationItem a {
+    color: rgb(40, 40, 82);
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a.active {
+    color: rgb(172, 59, 59);
+    animation: jiggle 0.2s;
+}
+
+@keyframes jiggle{
+    0% {
+        transform: translate(1px, 1px) rotate(-1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(1deg);
+    }
+}

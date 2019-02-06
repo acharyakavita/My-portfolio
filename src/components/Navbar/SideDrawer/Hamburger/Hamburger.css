@@ -1,0 +1,23 @@
+.Hamburger {
+    width:40px;
+    display:flex;
+    float: right;
+    flex-flow: column;
+    box-sizing: border-box;
+    cursor: pointer;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Hamburger div {
+    margin:2px 0;
+    width:90%;
+    height:8px;
+    background-color:rgb(40, 40, 82);
+}
+
+@media (min-width: 600px) {
+    .Hamburger {
+        display: none;
+    }
+}

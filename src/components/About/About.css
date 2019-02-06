@@ -1,0 +1,54 @@
+.About{
+    width:90%;
+    margin:5%;
+    display:flex;
+}
+
+.About img{
+    width:40%;
+    width: 260px;
+    height: 340px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    border:2px solid rgb(40, 40, 82);
+    box-shadow:3px 3px rgb(226, 185, 185);
+}
+
+.About article{
+    width:60%;
+    padding:0 5%;
+    text-align: left;
+}
+
+
+.Skills {
+    width:90%;
+    margin:5%;
+}
+
+.Skills h2{
+    color:brown;
+    margin:0 40%;
+    width:20%;
+    border-bottom: 2px solid rgb(40, 40, 82);
+}
+
+.Skills article{
+    width:60%;
+    margin:0 20%;
+    margin-top:4%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.Skills div{
+    width:10%;
+    padding:0 5% 5% 5%;
+}
+
+.Skills i{
+    width:100%;
+    color:rgb(40, 40, 82);
+    font-size:100px;
+}
