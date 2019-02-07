@@ -1,16 +1,16 @@
 
 .NavigationItem {
-    margin: 10px 0;
+    margin: 0;
     box-sizing: border-box;
-    float:right;
-    width: 50%;
+    width: 40%;
+    padding:0;
 }
 
 .NavigationItem a {
     color: rgb(40, 40, 82);
     text-decoration: none;
     box-sizing: border-box;
-    text-align: center;
+    position:fixed;
 }
 
 .NavigationItem a:hover,

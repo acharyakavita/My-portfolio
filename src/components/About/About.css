@@ -1,3 +1,41 @@
+.Home{
+    width: 100%;  
+    height: 90vh;  
+    position:relative;
+}
+
+.HomeText {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    color:rgb(40, 40, 82);
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+}
+
+.Home i{
+    position:absolute;
+    left: 50%;
+    bottom:-40vh;
+    font-size:30px;
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  
 .About{
     width:90%;
     margin:5%;
@@ -44,11 +82,15 @@
 }
 .Skills div{
     width:10%;
-    padding:0 5% 5% 5%;
+    padding:0 3% 3% 3%;
+    color:rgb(40, 40, 82);
 }
 
 .Skills i{
     width:100%;
-    color:rgb(40, 40, 82);
-    font-size:100px;
+    font-size:50px;
+}
+
+.Skills img{
+    max-width:60px;
 }

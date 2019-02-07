@@ -8,7 +8,6 @@ const navbar =props=>{
     return (
       <nav className={Classes.Navbar}>
         <Hamburger/>
-        
         <NavigationItems/>
       </nav>
     );

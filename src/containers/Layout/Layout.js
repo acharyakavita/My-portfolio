@@ -1,27 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Aux from '../../hoc/Auxilary';
 import Classes from './Layout.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 
 
-class Layout extends Component {
-
-    state={
-        
-    }
-    render() {
+const Layout =props=>{
         return (
             <Aux className={Classes.Layout}>
                 <Navbar/>
                 <main>
-                    {this.props.children}
+                    {props.children}
                 </main>
                 <Footer/>
             </Aux>
         )
-
-    }
 }
 
 
