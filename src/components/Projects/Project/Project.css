@@ -1,0 +1,40 @@
+.Project {
+    width:96%;
+    display:flex;
+    border-radius: 8px;
+    box-shadow:3px 3px grey;
+    margin:2%;
+    padding:2%;
+    background-color:white;
+}
+
+.Data{
+    padding:2%;
+    text-align: left;
+    width:50%;
+}
+
+.Link{
+    margin-top:10%;
+    text-align: center;
+}
+.Link a {
+    margin:8% 3% 3% 3%;
+    padding:1% 5%;
+    border:1px solid rgb(40, 40, 82);
+    text-decoration: none;
+    background-color: rgb(185, 161, 161);
+    color:white;
+    font-weight: bold;
+}
+.Image {
+    width:50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Image img{
+    border:2px solid rgb(185, 148, 148);
+    max-width: 100%;
+    height:auto;
+}

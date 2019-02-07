@@ -6,11 +6,14 @@ import Footer from '../../components/Footer/Footer';
 
 
 class Layout extends Component {
+
+    state={
+        
+    }
     render() {
         return (
             <Aux className={Classes.Layout}>
-                <Navbar/>{/*
-                <SideDrawer open={this.state.showSideDrawer} click={this.sideDrawerClosedHandler} />*/}
+                <Navbar/>
                 <main>
                     {this.props.children}
                 </main>

@@ -1,0 +1,13 @@
+.Projects {
+    display:flex;
+    flex-direction: column;
+    width:70%;
+    margin:2% 15% 5% 15%;
+    text-align: center;
+}
+
+.Projects h2{
+    color:brown;
+    margin:0 40%;
+    width:20%;
+}

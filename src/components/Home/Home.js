@@ -3,7 +3,7 @@ import Classes from "./Home.css";
 import Button from '../../components/Button/Button';
 
 const home =props=>{
-
+    
     return (
       <div className={Classes.Home}>
         <div className={Classes.HomeText}>
