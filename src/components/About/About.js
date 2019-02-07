@@ -18,7 +18,9 @@ const about = props => {
         </div>
       </section>
       <section className={Classes.About}>
+        <div className={Classes.Image}>
         <img src={img} alt="pic of kavitha" />
+        </div>
         <article>
           <h3>A Little About Me...</h3>
           <p>
