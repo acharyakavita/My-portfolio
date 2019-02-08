@@ -38,3 +38,19 @@
     max-width: 100%;
     height:auto;
 }
+
+@media screen and (max-width:800px){
+    .Data{
+        width:98%;
+        text-align: center;
+    }
+    .Project {
+        flex-direction: column;
+    }
+    .Image {
+        width:100%;
+    }
+    .ColumnReverse{
+        flex-direction: column-reverse;
+    }
+}

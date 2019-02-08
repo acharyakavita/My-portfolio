@@ -29,34 +29,26 @@ const about = props => {
             learning new things
           </p>
           <p>
-            I have learnt web development through nano degree program from{" "}
+            I have learnt web development through nano degree program from 
             <a
               href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
               rel="noopener noreferrer"
               target="_blank"
               style={{ textDecoration: "none", color: "brown" }}
-            >
-              Udacity
+            > Udacity
             </a>
-            . The course curriculum is created in collaboration with Google,
-            AT&T and GitHub.
+            . This course curriculum is created in collaboration with Google,
+            AT&T and GitHub to teach professional web development.
             <br />I have also learnt modern Javascript framework React & Redux
             through Udemy courses. In my spare time, I enjoy travelling, reading
-            and cooking, to name a few.
+            and cooking.
           </p>
+           <p><a href="/projects">View my work here</a></p>
           <h3>Before becoming a Web Developer...</h3>
           <p>
-            I was working as a Mainframe devloper in Accenture,Bangalore,India.
+            I was working as a Mainframe devloper in Accenture, India.
             <br />I have over 6 years of IT industry experience.
           </p>
-          <br />
-          <a
-            href="https://drive.google.com/drive/folders/1U-PMlVAUJfFUr4J9WT0-QSgxMFzsxC9N"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            My Resume
-          </a>
           <h3>Contact Details...</h3>
           <p>
             Email Id : acharyakavita12@gmail.com <strong> | </strong>

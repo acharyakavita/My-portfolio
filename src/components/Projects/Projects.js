@@ -12,7 +12,7 @@ const projects = props => {
     {
       name: "Stock Ticker",
       description:
-        "This responsive web application displays the stock data graphically by using Alpha vantage API call.It is hosted on Firebase",
+        "This React application displays the stock data graphically by using Alpha vantage API call. It is hosted on Firebase.",
       skills: 'React.js | JavaScript ES6 | HTML5 | CSS3 | Chart.js | Rest Api | Responsive',
       demo: "https://stock-ticker-48b87.firebaseapp.com/",
       github: "https://github.com/acharyakavita/stock-Ticker",
@@ -22,7 +22,7 @@ const projects = props => {
     {
       name: "Toronto Chuch On The Rock Ministries",
       description:
-        "This is a live responsive website created for a church in Toronto.I have used Verse of the day Api to display a new verse daily",
+        "This is a live website created for a church in Toronto. I have used Verse of the day Api to display a new verse daily.",
       skills: 'JavaScript ES6 | HTML5 | CSS3 | Ajax | Rest Api | Responsive',
       demo: "http://www.torontochurchontherock.com/",
       github:
@@ -33,7 +33,7 @@ const projects = props => {
     {
       name: "Arcade Game",
       description:
-        "This project is a fun game to cross a river while being attacked by giant bugs.Additional points are gained on collecting precious jewels on the way",
+        "This project is a fun game to cross a river while being attacked by giant bugs.Additional points are gained on collecting precious jewels on the way.",
       skills: 'JavaScript ES6 | HTML5 | CSS3 | Responsive',
       demo: "https://arcade-game-53075.firebaseapp.com/",
       github: "https://github.com/acharyakavita/Arcade-Game",
@@ -43,7 +43,7 @@ const projects = props => {
     {
       name: "Memory Matching game",
       description:
-        "This project is another fun game to match the same tiles by memorizing their position",
+        "This project is another fun game to match the same tiles by memorizing their position.",
       skills: 'JavaScript | HTML5 | CSS3 | Responsive',
       demo: "https://memory-matching-game-2d317.firebaseapp.com/",
       github: "https://github.com/acharyakavita/Memory-matching-Game",
@@ -52,7 +52,7 @@ const projects = props => {
     },
     {
       name: "RGB color matching game",
-      description: "Match the given RGB color value with given set of colors",
+      description: "Match the given RGB color value with given set of colors.",
       skills: 'JavaScript | HTML5 | CSS3',
       demo: "https://rgb-game-bc056.firebaseapp.com/",
       github: "https://github.com/acharyakavita/RGB-color-matching-game",

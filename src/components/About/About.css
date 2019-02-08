@@ -17,7 +17,7 @@
 .Home i{
     position:absolute;
     left: 50%;
-    bottom:-40vh;
+    bottom:-35vh;
     font-size:30px;
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
@@ -73,7 +73,6 @@
     color:brown;
     margin:0 40%;
     width:20%;
-    border-bottom: 2px solid rgb(40, 40, 82);
 }
 
 .Skills article{
